@@ -1,14 +1,15 @@
-//https://www.codewars.com/kata/5808ff71c7cfa1c6aa00006d/train/javascript
+// hhttps://www.codewars.com/kata/583952fbc23341c7180002fd/train/javascript
 
-function checkThreeAndTwo(array) {
-let obj =[];
-for(let el of array){
-  if (obj[el]){
-   obj[el]++;
-  }else obj[el] = 1;
+function orderFood(list) {
+  let obj = {};
+    for(let el of list){
+      if (obj[el.meal]){
+      obj[el.meal]++;
+}else {
+
+obj[el.meal] = 1;
+
+  }
 }
-for (let el in obj){
-  if(obj[el] !==2 && obj[el] !== 3 ) return false
- }
-return true
+return obj;
 }
