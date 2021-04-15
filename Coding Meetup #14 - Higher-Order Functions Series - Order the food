@@ -1,0 +1,14 @@
+//https://www.codewars.com/kata/5808ff71c7cfa1c6aa00006d/train/javascript
+
+function checkThreeAndTwo(array) {
+let obj =[];
+for(let el of array){
+  if (obj[el]){
+   obj[el]++;
+  }else obj[el] = 1;
+}
+for (let el in obj){
+  if(obj[el] !==2 && obj[el] !== 3 ) return false
+ }
+return true
+}
