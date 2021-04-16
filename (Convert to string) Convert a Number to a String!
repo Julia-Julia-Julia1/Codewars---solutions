@@ -9,6 +9,14 @@ Examples:
 
 function numberToString(num) {
   return String(num);
+
 }
 
+Преобразуйте число в строку путем слияния с пустой строкой
+
+Julia Haluza
+function numberToString(num){
+return num + '';
+
+}
 
