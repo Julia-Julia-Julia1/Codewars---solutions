@@ -8,3 +8,12 @@ function booleanToString(boolen){
    return boolen.toString();
 }
 
+
+Julia Haluza
+
+Преобразуйте значение в логическое значение с помощью функции Boolean(value)
+
+function valueToBoolean(value){
+  return Boolean(value);
+}
+
