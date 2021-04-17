@@ -1,0 +1,13 @@
+функция iSymbInString("abcd", "b") должна возвратить true;
+функция iSymbInString("abcd", "f") должна возвратить false.
+
+function iSymbInString(str, symb){
+  let per = false;
+   for(let i=0; i<str.length; i++){
+     if (str[i] === symb){
+       per=true;
+      break;
+    }
+  }
+  return per;
+}
