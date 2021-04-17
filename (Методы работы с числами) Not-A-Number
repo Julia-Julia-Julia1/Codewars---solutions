@@ -8,6 +8,6 @@ true + false;
 
 
  let notANumber = ('Two' * 2);
- console.log(notANumber);
+ console.log(notANumber); // NaN
  
  
