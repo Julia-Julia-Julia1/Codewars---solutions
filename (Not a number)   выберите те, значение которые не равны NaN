@@ -1,0 +1,17 @@
+
+Из данного набора выражений выберите те, значение которых не равны NaN, и создайте массив arr из этих значений, не изменяя их порядок.
+
+'July' + 31;
+'Three' + 'Two';
++'One' * +'Five' 
+'to be' || !'to be';
+'Two' * 'Two'; 
+'NaN';
+NaN + 2  
+
+
+let arr = ['July' + 31, 'Three' + 'Two', 'to be' ||!'to be', 'NaN']
+console.log(arr); // ["July31", "ThreeTwo", "to be", "NaN"];
+
+
+
