@@ -1,0 +1,12 @@
+// https://www.codewars.com/kata/563f037412e5ada593000114/train/javascript
+
+
+function calculateYears(principal, interest, tax, desired) {
+var year = 0;
+    while (principal < desired){
+        principal += principal * interest * (1 - tax);
+        year +=1;
+     }
+    return year;
+}
+
