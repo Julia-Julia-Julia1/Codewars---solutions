@@ -1,0 +1,12 @@
+//https://www.codewars.com/kata/53934feec44762736c00044b/train/javascript
+
+The code gives an error!
+a = 123.toString
+
+
+
+let a = (123).toString();
+
+let a = 123 + '';
+
+
