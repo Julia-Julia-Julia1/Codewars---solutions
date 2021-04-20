@@ -1,0 +1,8 @@
+
+сonst array = ['a', 'b', 'c'];
+console.log(array.__proto__ === Array.prototype); // true, 
+// array наследует методы массивов от Array.prototype
+
+console.log(array.__proto__.__proto__ === Object.prototype); // true, 
+// array наследует другие методы (не массивов) от Object.prototype
+
