@@ -1,0 +1,15 @@
+// https://www.codewars.com/kata/57be674b93687de78c0001d9/train/javascript
+
+Given a positive integer N, return the largest integer k such that 3^k < N.
+For example,
+
+largest_power(3) == 0
+largest_power(4) == 1
+
+function largestPower(n){
+    let largest = 0;
+  while (3 ** largest < n) {
+    largest++
+  }
+  return largest - 1;
+}
