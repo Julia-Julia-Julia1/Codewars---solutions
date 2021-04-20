@@ -1,0 +1,11 @@
+//https://localcoding.us/challenge/5e8541c92d4bc5003c6f54f6/solution?limit=20&onlyOwn=true&page=1
+
+
+
+function integerFromMinToMax(min, max){
+return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+
+Math.floor(Math.random() * 10);     // возвращает случайное целое число от 0 до 9
+
+
