@@ -19,8 +19,6 @@ var stringToNumber = function(str){
 Напишите функцию с именем valueToNumber,
 которая принимает значение value в качестве аргумента и возвращает значение, преобразованное в число. Преобразование к числу должно быть выполнено с помощью унарного плюса +
 
-Julia Haluza
-
 функция valueToNumber('5') должна возвратить 5;
 
 function valueToNumber(value){
