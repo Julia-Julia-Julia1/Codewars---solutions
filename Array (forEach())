@@ -1,0 +1,9 @@
+Дан массив строк arr. Вернуть новый массив строк и их длину, причем длину указать в виде массива рядом со строкой, к которой он относится.
+
+const arr = ['One', 'Two', 'Three', '!'];
+const newArr = [];
+arr.forEach(function(el) {
+  newArr.push(el, [el.length]);
+});
+console.log(newArr);
+
