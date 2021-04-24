@@ -1,0 +1,8 @@
+// https://www.codewars.com/kata/55f73f66d160f1f1db000059/train/javascript
+
+
+function combineNames(name1, name2){
+// Create the combineNames function here
+return `${name1} ${name2}`;
+} 
+
