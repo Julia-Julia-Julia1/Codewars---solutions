@@ -1,0 +1,7 @@
+string.substring(index1[, index2])
+
+
+let str = 'Thanksgiving';
+console.log(str.substring(0, 6)); // "Thanks"
+
+
