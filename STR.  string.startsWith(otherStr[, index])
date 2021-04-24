@@ -1,0 +1,14 @@
+Метод startsWith() позволяет определить, начинается ли текущая строка с другой подстроки.
+Синтаксис: string.startsWith(otherStr[, index]),
+где otherStr – подстрока для поиска, index (необязательный параметр) – индекс в текущей строке, с которого необходимо начинать поиск совпадения.
+По умолчанию он равен индексу начала строки (0).
+Методом будет возвращено значение true, если строка начинается с искомой подстроки c индекса from, или false, если нет.
+Метод startsWith() является регистрозависимым.
+
+let str = 'Create a postman collection named "Booking"';
+str.startsWith('C'); // true
+str.startsWith('Create'); // true
+str.startsWith('post'); // false
+str.startsWith('post', 9); // true
+str.startsWith('post', 10); // false
+str.startsWith('c'); // false
