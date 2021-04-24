@@ -1,0 +1,7 @@
+Возвращена будет новая строка, "старые" строки при этом останутся неизменными:
+
+let str = 'I';
+let str2 = 'am';
+let text = str.concat(' ', str2);
+console.log(text); // "I am"
+
