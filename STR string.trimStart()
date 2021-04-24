@@ -1,0 +1,6 @@
+// удаляет пробелы в начале строки. 
+
+let str = '   ?What?';
+console.log(str.trimStart()); // "?What?"
+console.log(str.trimLeft()); // "?What?"
+
