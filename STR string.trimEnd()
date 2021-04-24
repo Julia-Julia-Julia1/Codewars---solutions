@@ -1,0 +1,6 @@
+trimEnd() удаляет пробелы в конце строки. 
+
+let str = 'Thanksgiving Day!          ';
+console.log(str.trimEnd()); // "Thanksgiving Day!"
+console.log(str.trimRight()); // "Thanksgiving Day!"
+
