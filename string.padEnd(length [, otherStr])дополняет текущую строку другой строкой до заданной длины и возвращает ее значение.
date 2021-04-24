@@ -1,0 +1,5 @@
+let str = 'Dog';
+str.padEnd(12, ' is black'); // "Dog is black"
+str.padEnd(16, ' is black'); // "Dog is black is ", если нужно, значение otherStr повторяется
+
+
