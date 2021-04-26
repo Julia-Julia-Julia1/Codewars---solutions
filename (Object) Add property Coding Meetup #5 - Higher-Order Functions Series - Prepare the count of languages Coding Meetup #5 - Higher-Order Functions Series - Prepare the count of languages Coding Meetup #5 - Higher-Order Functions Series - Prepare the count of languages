@@ -1,0 +1,19 @@
+//https://www.codewars.com/kata/5828713ed04efde70e000346/train/javascript
+Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages
+
+function countLanguages (list){
+  const arr = [];
+  let obj = {};
+  for (i = 0; i < list.length; i++){
+    arr.push(list[i]['language'] )
+  }
+  for (i = 0; i < arr.length; i++){
+    if (obj.hasOwnProperty(arr[i]) ) {
+      obj[arr[i]]++;
+    } else {
+      obj[arr[i]] = 1;
+    }
+  }
+  return obj;
+}
+
